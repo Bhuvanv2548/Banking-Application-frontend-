@@ -8,7 +8,6 @@ return(
     <div className="Documentupload">
             <Documentupload/>
             <Login/>  
-
     </div>
     )
 };

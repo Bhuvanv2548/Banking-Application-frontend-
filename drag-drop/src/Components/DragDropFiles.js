@@ -19,17 +19,10 @@ const DragDropFiles = () => {
     }
   };
   
-  // send files to the server // learn from my other video
   const handleUpload = () => {
     const formData = new FormData();
     files.forEach((file) => formData.append("Files", file));
     console.log(formData.getAll("Files"));
-    // fetch(
-    //   "link", {
-    //     method: "POST",
-    //     body: formData
-    //   }  
-    // )
   };
 
   if (files) return (

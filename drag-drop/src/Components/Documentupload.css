@@ -1,6 +1,4 @@
 
-
-  /* FILE UPLOAD */
   .container{
     opacity:95%;
     display:block;
@@ -26,7 +24,7 @@
   .documentheading .title {
     display: block;
     font-size: 20px;
-    font-weight: lighter;/* Add margin-top to move the heading lower */
+    font-weight: lighter;
     color: #333;
     margin-top:20px;
   }
@@ -46,16 +44,6 @@ form input.aadhar,form input.pan{
     color:#1e89d6;
   }
   
-  /* form .form-control{
-    display: flex;
-    position:relative;
-    width: calc(100% / 3 - 15px);
-    height: 90px;
-    flex-direction: column;
-    margin: 4px 0;
-    top:-15px;
-    
-} */
 form .inputfields{
 display: flex;
 flex-direction: column;
@@ -75,8 +63,6 @@ height:12rem;
   display: flex;
   padding: 20px;
   box-sizing: border-box;
-
- 
 }
 
 .input-wrapper input {
